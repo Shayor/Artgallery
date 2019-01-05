@@ -1,0 +1,58 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    /* line-height: 0; */
+}
+.wrapper{
+    /* padding-bottom: 3vh; */
+    overflow-x: hidden;
+}
+
+.row{
+    margin: 0;
+}
+.banner{
+    height: 15vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/gadget.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 30vh */
+}
+.banner h3{
+    padding-top: 4vh;
+}
+.alt h6 {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+.alt h6 span {
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .alt h6:before {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  .alt h6:before {
+    left: 0;
+  }
+.btn-group{
+    padding-top: 5vh;
+    }
+.checkout{
+    padding-top: 50px;
+}

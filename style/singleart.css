@@ -1,0 +1,128 @@
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  /* line-height: 0; */
+}
+
+.nav-extended{
+  padding-left: 40px;
+  margin: 0;
+}
+.nav-content li.tab{
+  padding: 10px 30px 0px;
+}
+.nav-content li.tab a{
+  color: teal;
+  display: inline-block;
+}
+.diff .active{
+  border: 2px solid teal;
+}
+.info p{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+input{
+  margin: 0;
+  background-color: transparent;
+  border: 2px solid teal;
+  padding: 10px;
+  font-size: 18px;
+  color: teal;
+}
+.btn{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.info p span{
+  font-weight: normal;
+}
+p.left-align{
+  padding-left: 10px;
+}
+.info p:last-child{
+  font-weight: normal;
+}
+.details{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.socails span{
+  padding:20px;
+}
+span.line{
+  /* padding: 0; */
+  padding: 1px;
+  background: lightgray;
+}
+.about{
+  padding: 10px 20px;
+}
+.about .teal-text{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.photocard{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.photocard p.teal-text{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.reviews{
+  padding-top: 40px;
+}
+.reviews h4{
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.reviews li{
+  margin: 20px 0px;
+}
+.range{
+  width: 80%;
+  height: 10px;
+  float: left;
+  margin-top: 4px;
+  border-radius: 5px;
+  margin-right: 5px
+}
+.inside-range{
+  height: 100%;
+  /* margin-top: 4px; */
+  border-radius: 5px
+}
+.reviews ul li .fa {
+  float: left;
+  margin-top: 3px; 
+float: left;
+padding-right:20px
+}
+.reviews .num{
+  float: left;
+  padding-right: 5px;
+  color: teal;
+}
+.test{
+  padding: 30px 0px;
+}
+.test img{
+  float: left;
+  margin-right: 10px;
+}
+
+.test p span{
+  font-weight: bold;
+}
+.map-div h4{
+  padding:20px 0px 20px;
+}
+select{
+  border: 1px solid teal;
+  outline: none;
+}
+select label{
+  color: teal;
+}

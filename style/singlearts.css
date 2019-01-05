@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    /* line-height: 0; */
+}
+.wrapper{
+    padding-bottom: 30px;
+}
+.banner{
+    height: 15vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/gadget.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5vh;
+}
+.banner .details h4{
+    font-weight: bold;
+}
+.small{
+    width: 10%;
+    border: 2px solid lightgray;
+}
+.details input{
+    margin: 0;
+    background-color: transparent;
+    border: 1px solid teal;
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px
+}
+.colors{
+    height: 50px;
+    width: 50px;
+    padding:3px;
+    border: 2px solid gray;
+}
+.colorpallet{
+    height: 40px;
+    width: 40px;
+    background: red;
+}
+.button{
+    background: transparent;
+    padding: 15px 30px;
+    border: 2px solid teal;
+    transition: 0.5s linear;
+    margin: 0px 20px;
+}
+
+.details-content button{
+    background: none;
+    padding: 10px 30px;
+    /* margin: 0px 10px; */
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid teal;
+}
+button.description{
+    border-bottom: 2px solid teal;
+}
+.info{
+    padding-top: 15px;
+}
+.info h5 , .info h6{
+    font-weight: bolder;
+}
+.info p{
+    padding:3px 0px;
+}
+.reviews{
+    padding-top: 20px;
+}
+.reviews h5{
+    font-weight: bolder;
+}
+.reviews li{
+    display: inline-block;
+    /* background: red; */
+}
+.container{
+    width: 80%;
+}

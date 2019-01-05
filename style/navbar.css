@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu{
+    padding: 10px 0px;
+}
+.menu li{
+    display: inline;
+    font-size: 18px;
+    padding:0px 8px;
+}
+li.divide{
+    color: lightgray
+}
+.menu a{
+    color: rgb(124, 120, 120);
+    padding: 0px 5px;
+}
+.nav{
+    padding-top: 20px;
+}
+.nav li{
+    cursor: pointer;
+}
+.nav input.search{
+    padding-left: 10px;
+    position: absolute;
+    top: 60px;
+    width: 20%;
+    right: 40px;
+    visibility: hidden;
+}
+
+.nav li.search-list:hover input.search{
+    visibility: visible
+}
+
+.nav input.search:focus{
+    border: 2px solid teal;
+}
+.nav li{
+    display: inline;
+    padding: 10px;
+}
+/* .menu a:hover{
+    border-bottom: 2px solid teal
+} */
+.badge{
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+    padding:10px;
+}

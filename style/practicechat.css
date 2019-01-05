@@ -1,0 +1,135 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+.chatbox{
+    width: 500px;
+    height: 600px;
+    background:white;
+    padding: 25px;
+    margin: 30px auto;
+    box-shadow: 0 3px #ccc;
+}
+.chatlogs{
+    padding: 10px;
+    width: 100%;
+    height: 470px;
+    background: aliceblue;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+.chatlogs::-webkit-scrollbar{
+    width: 5px;
+}
+.chatlogs::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.chat_friend, .chat_self{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.chat_friend > .user_photo, .chat_self > .user_photo{
+    width: 65px;
+    height: 65px;
+    background-color: lightgray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.chat_friend > .chat_msg, .chat_self > .chat_msg{
+    width: 70%;
+    padding: 15px;
+    padding: 5px 10px 0px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    background: skyblue;
+}
+.chat_self > .chat_msg{
+    background-color: lightgreen;
+    order: -1;
+}
+.user_photo{
+    width: 100%;
+} */
+.chat {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    background: #eee;
+  }
+  .chat .message {
+    display: flex;
+    margin: 10px 0 0 10px;
+    min-height: 30px;
+    height: auto;
+    text-align: left;
+  }
+  .chat .message.me img {
+    order: 2;
+    margin: 0 0 0 3px;
+  }
+  .chat .message.me div {
+    order: 1;
+    padding: 0 8px 0 0;
+  }
+  .chat .message.me div p {
+    float: right;
+  }
+  .chat .message.me div:before {
+    position: relative;
+    float: right;
+    content: '';
+    margin: 7px -8px 0 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 0 8px 8px;
+    border-color: transparent transparent transparent #fff;
+  }
+  .chat .message img {
+    display: block;
+    order: 1;
+    margin: 0 10px 0 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+  }
+  .chat .message div {
+    display: block;
+    flex: 1;
+    order: 2;
+  }
+  .chat .message div p {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    padding: 8px 10px 8px 10px;
+    background: #fff;
+    word-wrap: break-word;
+    font-family: Monospace;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .chat .message div:before {
+    position: relative;
+    float: left;
+    content: '';
+    margin: 7px 0 0 -8px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent #fff transparent transparent;
+  }

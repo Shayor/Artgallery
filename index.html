@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Metros | Home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style/animate.css"> -->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+        <!-- this is the modal for displaying the products ... activate by removing class hide
+        from modal-board-->
+        <div class="modal-board row valign-wrapper hide">
+                <div class="modal-board-content col s12 l8 offset-l2 white">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <img src="images/showcase/bag2.jpg" alt="Bag" width="100%">
+                        </div>
+                        <div class="col l6 s12 card-details">
+                            <h4>I am a very simple card. I am good at containing small bits of information.
+                            </h4><br>
+                            <h5 class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</h5><br>
+                            <input type="button" value="-" class="qtyminus" style="border-right: none"><input type="button" value="1" class="qtyminus" style="border-right: none;border-left: none"><input type="button" value="+" class="qtyminus" style="border-left: none">
+                            <button class="button" style="padding:10px">ADD TO CART</button>
+                            <hr>
+                            <p>Categories :<span class="color"> Bags , Shoes </span></p>
+                            <hr>
+                            <p>Tags :<span class="color"> Bags , Shoes , Accessories</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- the fixed red button at the buttom -->
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red">
+                  <i class="large material-icons">chat</i>
+                </a>
+            </div>
+            <!--the sidenav  -->
+            <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                      <div class="background">
+                        <img src="images/office.jpg">
+                      </div>
+                      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                      <a href="#name"><span class="white-text name">John Doe</span></a>
+                      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                  </ul>
+    <div class="wrapper">
+        <div class="row">
+            <!-- you can add class fixed on scroll using javascript -->
+            <div class="nav row">
+                <div class="col l4 offset-l1">
+                    <ul>
+                        <li><i class="material-icons left">account_circle</i>Account</li>
+                        <li class="divide">|</li>
+                        <li>Wishlist</li>
+                    </ul>
+                </div>
+                <div class="col l2">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="col l3 offset-l2 left-align">
+                        
+                    <ul>
+                        <li class="search-list"><i class="material-icons">search</i>
+                            <input type="text" placeholder="Search" style="border:1px solid teal;" class="search">
+                        </li>
+                        <li class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">shopping_cart</i></li>
+                        <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col s12 center">
+                <div class="grey-text text-darken-4 menu hide-on-med-and-down">
+                    <ul id="nav-mobile">
+                        <!-- <li><a href="#"><i class="material-icons">search</i></a></li> -->
+                        <li><a href="#">HOME</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="login.html">LOG IN</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="#">SIGN UP</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="#">SHOP</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="#">LOG IN</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="#">SIGN UP</a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="banner col s12 center-align">
+                <div class="banner-text rubber">
+                    <p class="white-text">WELCOME TO</p>
+                    <h2 class="white-text">SITE <span class="color">TITLE</span></h2>
+                    <button class="button white-text">EXPLORE NOW &#8594;</button>
+                </div>
+                <div class="expand white-text">
+                    <div class="down"></div>
+                    <i class="material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+        </div>
+        <div class="container .showcase">
+            <h6><span>BEST SELLING PRODUCTS</span></h6>
+            <div class="row">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                                <span class="label right">-20% Off</span>
+                            <img src="images/showcase/art5.jpg" alt="Jeans" class="activator" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4" > Black Jean 
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                            <p>Short description for the product</p>
+                            <p class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Card Title 
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="box teal-text">
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to cart">shopping_cart</i>
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to Wishlist">favorite_border</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                                <span class="label right">-20% Off</span>
+                            <img src="images/showcase/cloth4.jpg" alt="Jeans" class="activator" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4" > Black Jean 
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                            <p>Short description for the product</p>
+                            <p class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Card Title 
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="box teal-text">
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to cart">shopping_cart</i>
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to Wishlist">favorite_border</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                                <span class="label right">-20% Off</span>
+                            <img src="images/showcase/bag7.jpg" alt="Jeans" class="activator" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4" > Black Jean 
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                            <p>Short description for the product</p>
+                            <p class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Card Title 
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="box teal-text">
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to cart">shopping_cart</i>
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to Wishlist">favorite_border</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                                <span class="label right">-20% Off</span>
+                            <img src="images/showcase/art3.jpg" alt="Jeans" class="activator" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4" > Black Jean 
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                            <p>Short description for the product</p>
+                            <p class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Card Title 
+                                <i class="material-icons right">close</i>
+                            </span>
+                        <div class="box teal-text">
+                            <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to cart">shopping_cart</i>
+                            <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to Wishlist">favorite_border</i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                                <span class="label right">-20% Off</span>
+                            <img src="images/showcase/tshirt2.jpg" alt="Jeans" class="activator" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4" > Black Jean 
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                            <p>Short description for the product</p>
+                            <p class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Card Title 
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="box teal-text">
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to cart">shopping_cart</i>
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to Wishlist">favorite_border</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                                <span class="label right">-20% Off</span>
+                            <img src="images/showcase/tshirt1.jpg" alt="Jeans" class="activator" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4" > Black Jean 
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                            <p>Short description for the product</p>
+                            <p class="teal-text text-darken-4"><strike class="grey-text">&#8358;530,250.00</strike> &#8358;500,250.00</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Card Title 
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="box teal-text">
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to cart">shopping_cart</i>
+                                <i class="material-icons icons tooltipped" data-position="top" data-tooltip="Add to Wishlist">favorite_border</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-align">
+                    <a href="#!" class="btn">SHOP NOW &#8594;</a>
+            </div>
+                
+        </div>
+        <div class="container">
+            <h6><span>BROWSE OUR CATEGORIES</span></h6>
+
+            <div class="row">
+                <div class="col s12 l4">
+                    <div class="card medium">
+                            <div class="card-image">
+                                <img src="images/showcase/tshirt2.jpg">
+                            </div>
+                        <div class="card-content">
+                            <span class="card-title">Card Title</span>
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="teal-text">SHOP THIS CATEGORY &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="images/showcase/cloth4.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Card Title</span>
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="teal-text">SHOP THIS CATEGORY &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="images/showcase/art3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Card Title</span>
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="teal-text">SHOP THIS CATEGORY &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-align">
+                <a href="#!" class="btn">VIEW MORE CATEGORIES &#8594;</a>
+            </div>
+        </div>
+        <footer class="page-footer teal lighten-2">
+            <div class="container">
+                <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About Us</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.
+                            You can use rows and columns here to organize your footer content.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Home Page</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Shop</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Sign Up</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

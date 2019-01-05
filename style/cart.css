@@ -1,0 +1,36 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    /* line-height: 0; */
+}
+.banner{
+    height: 25vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/gadget.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    /* padding-top: 30vh */
+}
+.banner h3{
+    padding-top: 10vh;
+}
+tbody input{
+    margin: 0;
+    background-color: transparent;
+    border: 1px solid teal;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.card{
+    margin: 0;
+}
+.row{
+    margin: 0;
+}
+.btn{
+    font-size: 11px;
+    box-shadow: none;
+}
+.transparentbtn{
+    border: 1px solid teal;
+    background: transparent;
+}
